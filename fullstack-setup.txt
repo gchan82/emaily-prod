@@ -1,0 +1,11 @@
+npm init
+npm install --save express
+
+node index.js
+localhost:5000
+
+heroku.com /digitalocean.com - cloud
+
+git init (commit to git repository)
+git add .
+git commit -m "initial commit"
