@@ -1,0 +1,25 @@
+npm init
+npm install --save express
+
+node index.js
+localhost:5000
+
+heroku.com /digitalocean.com - cloud
+
+git init (commit to git repository)
+git add .
+git commit -m "initial commit"
+
+google: Herokku windows CLI installer
+
+heroku login
+heroku create (gives 2nd link)
+git remote add heroku (input 2nd link)
+	https://git.heroku.com/sleepy-woodland-65083.git
+git push heroku master
+
+summary: (deploy)
+heroku open
+
+troubleshooting:
+heroku logs
