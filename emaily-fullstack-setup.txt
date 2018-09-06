@@ -23,3 +23,14 @@ heroku open
 
 troubleshooting:
 heroku logs
+
+First time using git: (no issues)
+git init (commit to git repository)
+git add .
+git commit -m "initial commit"
+
+uploading changes to heroku: (problems)
+git status
+git add .
+git commit -m "changed greeting"
+git push heroku master
