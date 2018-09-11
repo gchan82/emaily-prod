@@ -34,3 +34,45 @@ git status
 git add .
 git commit -m "changed greeting"
 git push heroku master
+
+npm install --save passport passport-google-oauth20
+
+https://console.developers.google.com (for API)
+
+startup server:
+node server.js (doesn't do anything)
+paste into browser: localhost:5000/auth/google
+
+install nodemon (automatically restarts server):
+npm install --save nodemon
+add to package.json--> "scripts": {"dev": "nodemon index.js"}
+***npm run dev***
+
+mlab.com (mongoDB)
+emaily-dev
+user: gary
+password: pass123
+
+npm install --save mongoose
+npm install --save cookie-session
+
+***PRODUCTION SERVER***
+mlab.com (mongoDB)
+emaily-prod
+user: garyprod
+password: password123
+
+console.developers.google.com
+heroku open - take url as "Authorized redirect URI" (for Google OAuth) + /auth/google/callback
+	user heroku open url as "Authorized JavaScript origins".
+goto heroku.com - select the url.
+transfer prod.js info:
+GOOGLE_CLIENT_ID -> google OAuth
+GOOGLE_CLIENT_SECRET -> google OAuth
+MONGO_URI -> from MongoDB
+COOKIE_KEY -> random number
+
+Commit to Git:
+git add .
+git commit -m "finished auth flow"
+git push heroku master
