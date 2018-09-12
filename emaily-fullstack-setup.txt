@@ -1,3 +1,4 @@
+
 npm init
 npm install --save express
 
@@ -76,4 +77,5 @@ Commit to Git:
 git add .
 git commit -m "finished auth flow"
 git push heroku master
+heroku open
 
