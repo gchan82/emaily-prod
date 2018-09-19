@@ -16,7 +16,7 @@ google: Herokku windows CLI installer
 heroku login
 heroku create (gives 2nd link)
 git remote add heroku (input 2nd link)
-	https://git.heroku.com/sleepy-woodland-65083.git
+	https://git.heroku.com/nameless-ocean-99654
 git push heroku master
 
 summary: (deploy)
