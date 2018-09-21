@@ -79,3 +79,20 @@ git commit -m "finished auth flow"
 git push heroku master
 heroku open
 
+https://nameless-ocean-99654.herokuapp.com/auth/google
+https://nameless-ocean-99654.herokuapp.com/api/current_user
+https://nameless-ocean-99654.herokuapp.com/api/logout
+
+Front-End React:
+npm install -g create-react-app
+create-react-app client
+
+How to spin-up back-end & front-end servers:
+client/package.json
+***emaily/package.json - add script "client": "npm run start--prefix client",
+				"dev": "concurrently \"npm run server\" \"npm run client\""
+npm i --save concurrently (allows you to connect back-end & front-end servers)
+npm run dev
+
+
+
