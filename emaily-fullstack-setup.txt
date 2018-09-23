@@ -11,7 +11,7 @@ git init (commit to git repository)
 git add .
 git commit -m "initial commit"
 
-google: Herokku windows CLI installer
+google: Heroku windows CLI installer
 
 heroku login
 heroku create (gives 2nd link)
