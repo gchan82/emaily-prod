@@ -1,0 +1,26 @@
+Bobby-TA:
+git is local repository that tracks changes to your app, Github and Heroku are remotes that you push your code to. In the case of this app you can have (and should have) multiple remotes. One for github for regular version control and Heroku so that your app can be hosted.
+
+To get the second remote create a new empty GitHub repository
+
+do the following in your project root:
+
+"git remote add origin https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git"
+
+"git remote add origin https://github.com/gchan82/emaily-prod"
+
+// add the new github repo as a second remote to your project
+
+"git remote -v"
+// to confirm the new remote has been added.
+
+"git add ."
+git commit -m "new remote"
+// these will likely say nothing to commit, working tree clean, which is fine.
+
+git push origin master
+// will push to your new Github repository
+
+
+
+Also, good catch, on adding the node_modules to your .gitignore. Once you have your project correctly hosted on GitHub send me the link and I will take a look.
